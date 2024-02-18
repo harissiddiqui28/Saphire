@@ -7,8 +7,8 @@ const New:FC = () => {
   return (
 <>
 <div className='flex justify-between flex-col md:flex-row'>
-<h1 className="text-xl  mt-20 ml-4">WHAT'S
-NEW</h1>
+<h1 className="text-xl mt-20 ml-4">WHAT&apos;S NEW</h1>
+
     <div className=" rounded-lg  p-6">
       <Image src="/women.png" alt="Logo" width={0} height={0} className="rounded-full w-32 h-32 mb-4 mx-auto border-4 cursor-pointer  hover:scale-110" />
       <h2 className="text-xl  text-center">Spring sympohny</h2>
