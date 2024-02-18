@@ -2,7 +2,7 @@
 // components/Menu.tsx
 import React, { useState } from 'react';
 import { IoMenu } from 'react-icons/io5';
-
+import Image from 'next/image';
 const Menu: React.FC = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -70,7 +70,7 @@ THE EDIT
     <nav className="flex flex-col md:flex-row bg-white p-2 border-b mb-2  md:hidden mt-4">
       <div className="flex items-center justify-between">
         <div>
-          <img src="/new.webp" alt="Logo" className="h-8 w-auto cursor-pointer" />
+          <Image height={0} width={0} src="/new.webp" alt="Logo" className="h-8 w-auto cursor-pointer" />
         </div>
         <div className="md:hidden">
           <IoMenu className="text-black text-2xl  cursor-pointer" onClick={toggleMenu} />
